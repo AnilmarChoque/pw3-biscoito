@@ -7,8 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class FrasesComponent {
 
-  ocultar = true;
-  //@Input() ocultar: Boolean = true;
+  @Input() ocultar: Boolean = true;
     frases = ['A vida trará coisas boas se tiver paciência.',
   'Demonstre amor e alegria em todas as oportunidades e verá que a paz nasce dentro de si.',
   'Não compense na ira o que lhe falta na razão.',

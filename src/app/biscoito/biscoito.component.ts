@@ -14,12 +14,12 @@ export class BiscoitoComponent {
   @Input() biscoitoAbra: Boolean = true;
   Abrir = true;
 
-  constructor(private frases: FrasesComponent) {}
+  //constructor(private frases: FrasesComponent) {}
 
   AbrirBiscoito(){
     this.biscoito = this.biscoitoAberto;
     this.Abrir = !this.Abrir;
-    this.frases.ocultar = false;
+    //this.frases.ocultar = false;
   }
 
 

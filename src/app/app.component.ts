@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'PW3-INTRODUCAO';
 
-  biscoito = "assets/biscoito.png";
+  /*biscoito = "assets/biscoito.png";
   biscoitoAberto = "assets/biscoito-aberto.png"
   ocultar = true
   frases = ['A vida trará coisas boas se tiver paciência.',
@@ -36,7 +36,7 @@ export class AppComponent {
   ObterAlerta(){
     alert("Hoje é terça-feira");
   }
-button = false
+button = false*/
 
 
 }
